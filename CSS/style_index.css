@@ -1,0 +1,687 @@
+/* Aquí va el banner */
+
+.banner_box {
+    position: relative;
+    background: url(../Img/galeria/mapa.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.banner_container{
+    display: flex;
+    gap: 20px;
+    color: #ffffff;
+    padding: 150px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.banner_title{
+    width: 100%;
+    text-shadow: 2px 2px 2px black;  
+
+}
+
+.banner_title h1{
+    font-size: 55px;
+}
+
+.banner_title h2{
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.banner_title p{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.banner_title h3{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 45px;
+    
+}
+
+
+.banner_titulo {
+    align-items: center;
+    width: 100%;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+
+.banner_button{
+    position: inherit;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #c1e623;
+    width: 35px;
+    height: 35px;
+    border-style: hidden;
+    transition: background-color .5s;
+}
+
+.banner_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* FIN del banner */
+
+/* Aquí va la parte de Cooperación */
+
+.about_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+
+}
+
+.about_text p{
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+/* FIN de la parte de Cooperación */
+
+
+/* Aquí va la data */
+
+.data_wrapper{
+
+    margin: 70px 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #5a5a5a38;
+
+}
+
+.data_container{
+    width: 15vmin;
+    height: 15vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    position: relative;
+    color: #c1e623;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
+.data_num{
+    font-size: 85px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.data_text{
+    color: #c1e623;
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+}
+
+/* FIN de la data */
+
+
+
+
+/* Aquí va Kick-OFF*/
+
+
+.kickOff_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+.kickOff_titulo {
+    font-size: 65px;
+    margin-bottom: 0;
+}
+
+.kickOff_container a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 15px;
+    transition: all .5s ease
+}
+
+.kickOff_container a i{
+    font-size: 10px;
+    color: var(--black);
+    transition: all .5s ease
+}
+
+.kickOff_container a:hover, 
+.kickOff_container a i:hover{
+    color: var(--light-green);
+    font-size: 15px;
+}
+
+.kickOff_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Aquí va la galeria */
+
+.carousel {
+    width: 75%;
+
+}
+
+.carousel-control-prev-icon{
+    background-color: #c1e623;
+}
+
+.carousel-control-next-icon{
+    background-color: #c1e623;
+}
+
+/*FIN GALERIA*/
+
+/* .noticia_container{
+    display: flex;
+    width: 75%;
+    
+    padding: 50px;
+    border-radius: 25px;
+    gap: 30px;
+    align-items: center;
+    background-color: #f3f3f3;
+    
+}
+
+.noticia_img img{
+    width: 100%;
+    border: 1px solid #c1e623;
+    border-radius: 25px;
+}
+
+.noticia_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.noticia_info h5{
+    color: #000000;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.noticia_info p{
+    color: #000000;
+    text-align: left;
+}
+
+.noticia_info button{
+    width: 50%;
+    background-color: #c1e623;
+    border: none;
+    color: #000000;
+    font-weight: 900;
+    border-radius: 50px;
+    transition: background-color .5s;
+}
+
+.noticia_info button:hover{
+    background-color: #000000;
+    color: #c1e623;
+} */
+
+/*FIN KickOff*/
+
+/*Aquí va la parte Miembros*/
+
+.miembros_container{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 150px;
+    border-bottom: 1px solid #5a5a5a38;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.miembros_titulo {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+.miembros_parrafo {
+    color: #808080;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.miembros_logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+
+    
+}
+
+.miembro_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+}
+
+
+
+.miembros_logosMobile{
+    display: none;
+}
+
+/*FIN MIEMBROS*/
+
+/*-------*/
+
+/*Aquí va la parte de Contacto*/
+
+.contacto_container {
+    display: flex;
+    background: black;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c1e623;
+    padding: 25px;
+}
+
+.contacto_informacion{
+    width: 80%;
+    color: #ffffff;
+}
+
+.contacto_intro{
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacto_titulo{
+    text-decoration: none;
+}
+
+.contacto_titulo h1{
+    font-size: 65px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.contacto_titulo h1:hover{
+    color: greenyellow;
+}
+
+.contacto_titulo h1 i {
+    font-size: 35px;
+    transition: all .5s ease
+}
+
+.contacto_titulo h1 i:hover{
+    font-size: 40px;
+}
+
+
+
+.contacto_botones{
+    width: 20%;
+
+}
+
+.contacto_botones ul{
+    list-style: none;
+}
+
+.contacto_botones ul li{
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    float: left;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li .fa{
+    color: #ffffff;
+    margin-top: 20px;
+    transition: all .5s ease;
+}
+
+
+.contacto_botones ul li:hover.facebook{
+    box-shadow: 0 0 15px #3b5998;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover .fa-facebook{
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover.instagram{
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover .fa-instagram{
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all .5s ease;
+}
+
+
+/*FIN contacto*/
+
+
+
+/* Aquí va el responsive */
+
+/*Breakpoint: Pantalla portatil*/
+@media (max-width: 1200px){
+
+    /*INICIO PARTNERS*/
+
+    .miembro_logo{
+        padding: 20PX;
+    }
+
+    /*FIN PARTNERS*/
+
+}
+
+/*Breakpoint: tablet2 992px*/
+
+@media (max-width: 992px) {
+
+    .banner_container{
+        gap: 10px;
+        padding: 100px 25px;
+    }
+
+
+    .banner_title h1{
+        font-size: 45px;
+    }
+
+    .banner_title h2{
+        font-size: 40px;
+    }
+
+    /* Aquí va la parte de Introducción */
+    .about_container{
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-bottom: 25px;
+        margin: 60px 50px;
+    }
+
+    /* FIN de la parte de Introducción */
+
+    /* Aquí va la data */
+
+    .data_wrapper{
+        margin: 60px 50px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .data_container{
+        height: 20vmin;
+        width: 20vmin;
+        align-items: center;
+        padding: 100px;
+        border-bottom: 1px solid #5a5a5a38;
+        
+
+    }
+
+    .data_num{
+        font-size: 65px;
+
+    }
+
+    /* FIN de la data */
+
+    .kickOff_container{
+        margin: 60px 50px;
+    }
+
+    .kickOff_titulo {
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+
+    .kickOff_parrafo {
+        font-size: 20px;
+        width: 100%;
+    }
+    /* Aquí va Kick-OFF*/
+
+    
+
+    
+
+    /*Aquí va la parte Miembros*/
+
+    .miembros_container{
+
+        margin: 60px 50px;
+
+    }
+
+    .miembros_titulo {
+        font-size: 65px;
+        margin-bottom: 20px;
+    }
+
+    .miembros_parrafo {
+        font-size: 20px;
+    }
+
+    .miembros_logos{
+        display: none;
+    }
+
+    
+    .miembros_logosMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .miembro_logoMobile a img{
+        gap: 100px;
+    }
+    
+
+    /*FIN MIEMBROS*/
+
+/*-------*/
+
+    /*Aquí va la parte de Contacto*/
+
+    .contacto_container{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 25vh;
+    }
+
+    .contacto_informacion{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .contacto_titulo, .contacto_mail{
+        font-size: 35px;
+        
+    }
+
+    .contacto_botones{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .contacto_botones ul{
+        padding: 0;
+    }
+    
+}
+
+/*Breakpoint: Celular 768px*/
+
+@media (max-width: 768px){
+
+    /*BANNER*/
+
+    .banner_container{
+        gap: 10px;
+        padding: 100px 25px;
+    }
+
+
+    .banner_title h1{
+        font-size: 40px;
+    }
+
+    .banner_title h2{
+        font-size: 30px;
+        margin-bottom: 30PX;
+    }
+
+
+    /*FIN BANNER*/
+
+    /*ABOUT */
+
+    .about_text p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*FIN ABOUT*/
+
+    /*INICIO DATA*/
+
+    .data_wrapper{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*FIN DATA*/
+
+    /*INICIO NEWS*/
+
+    .kickOff_container{
+        gap: 25px;
+    }
+
+    .kickOff_titulo{
+        margin-bottom: 0;
+    }
+
+    .kickOff_parrafo{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .carousel {
+        width: 100%;
+    
+    }
+
+    .carousel-control-prev-icon{
+        background-color: transparent;
+    }
+    
+    .carousel-control-next-icon{
+        background-color: transparent;
+    }
+
+    /*FIN NEWS*/
+
+    /*PARTNERS*/
+
+    .miembros_parrafo {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*FIN PARTNERS*/
+}
+
+/*Breakpoint: Celular 500px*/
+
+@media (max-width: 500px){
+    /*INICIO CONTACTO*/
+
+    .contacto_container{
+        height: 30vh;
+        padding: 25px;
+    }
+
+    .contacto_informacion{
+        width: 100%;
+    }
+
+    .contacto_titulo, .contacto_mail{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    /*FIN CONTACTO*/
+}

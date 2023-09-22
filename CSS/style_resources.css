@@ -1,0 +1,201 @@
+/*SECCIÓN BANNER*/
+
+.banner_box {
+    position: relative;
+    background: url(../Img/galeria/resources_banner.webp) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.banner_container{
+    display: flex;
+    gap: 20px;
+    padding: 150px;
+    color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+.banner_title{
+    width: 100%;
+    
+}
+
+
+.banner_titulo{
+    font-size: 65px;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 50px;
+}
+
+
+
+.banner_button{
+    position: inherit;
+    border-radius: 100%;
+    background-color: #000000;
+    color: #c1e623;
+    width: 35px;
+    height: 35px;
+    border-style: hidden;
+    transition: background-color .5s;
+}
+
+.banner_button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*FIN -- SECCIÓN BANNER*/
+
+/*==============================================*/
+
+/*SECCIÓN MIEMBROS*/
+
+.acordion_container{
+    margin: 50px;
+}
+
+.accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+    
+}
+
+
+.accordion-header button{
+    font-size: 20px;
+    
+    color: var(--black);
+    background-color: #f7ffd1;   
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--black);
+    font-weight: 900;
+    color: var(--light-green);
+    
+
+} 
+
+.accordion-collapse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordion-imagenes{
+    margin-top: 25px;
+    display: flex;
+    gap: 45px;
+}
+
+.accordion-imagenes .accordion-logo{
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.accordion-imagenes .accordion_imagen img{
+    width: 300px;
+}
+
+.accordion-body{
+    text-align: justify;
+}
+
+.accordion-contact{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.accordion-contact button{
+    background-color: var(--light-green);
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    transition: all .5s ease
+    
+}
+
+.accordion-contact button a{
+    color: var(--black);
+    font-weight: 900;
+    text-decoration: none;
+    transition: all .5s ease
+}
+
+.accordion-contact button:hover {
+    background-color: var(--black);
+    width: 160px;
+}
+
+.accordion-contact button a:hover{
+    color: var(--light-green);
+}
+
+
+/*FIN -- SECCIÓN MIEMBROS*/
+
+
+
+@media (max-width: 992px){
+
+    .banner_container{
+        padding-top: 80px;
+    }
+
+    .banner_titulo{
+
+        margin-bottom: 25px;
+    }
+
+    .accordion-imagenes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 45px;
+    }
+
+    
+}
+
+@media (max-width: 768px){
+    .accordion-imagenes .accordion_imagen img{
+        width: 380px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .acordion_container{
+        margin: 10px;
+    }
+
+
+    .accordion-header button{
+        font-size: 10px;
+        font-weight: 900;
+
+    }
+
+    .accordion-body p{
+        font-size: 10px;
+    }
+    
+
+    .accordion-imagenes .accordion_imagen img{
+        width: 250px;
+    }
+}

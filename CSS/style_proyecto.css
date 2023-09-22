@@ -1,0 +1,162 @@
+/*SECCIÓN BANNER*/
+
+.banner_box {
+    position: relative;
+    background: url(../Img/galeria/BANNER_PROJECT.webp) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    max-width: 100%;
+
+}
+
+
+
+/*FIN -- SECCIÓN BANNER*/
+
+/*==============================================*/
+
+
+/*==============================================*/
+
+/*SECCIÓN OBJETIVO GENERAL*/
+
+.objetivoGeneral_container{
+    display: flex;
+    margin: 60px 100px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #5a5a5a38;
+}
+
+
+.objetivoGeneral_parrafo {
+    display: flex;
+    text-align: justify;
+    gap: 10px;
+    width: 100%;
+    font-weight: 700;
+}
+
+/*FIN -- SECCIÓN OBJETIVO GENERAL*/
+
+/*==============================================*/
+
+/*SECCIÓN OBJETIVO ESPECIFICO*/
+
+.obejtivoEspecifico_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 100px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #5a5a5a38;
+}
+
+
+.obejtivoEspecifico_titulo{
+    width: 34%;
+}
+
+.obejtivoEspecifico_titulo h4{
+    font-weight: 900;
+}
+
+.obejtivoEspecifico_lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: justify;
+    gap: 10px;
+    width: 66%;
+    list-style: none;
+    padding-left: 0;
+}
+
+/*FIN -- SECCIÓN OBJETIVO ESPECIFICO*/
+
+
+/*======================================================*/
+
+/* RESPOSIVE = BREAKPOINTS*/
+
+/*Breakpoint: Pantalla portatil 1200px*/
+
+/*Breakpoint: tablet2 992px*/
+@media (max-width: 992px){
+    /*banner*/
+
+    .banner_box {
+        position: relative;
+        background: url(../Img/galeria/BANNER_PROJECTMobile.webp) no-repeat center;
+        background-size: cover;
+        height: 500px;
+        max-width: 1920px;
+    
+    }
+
+    /*FIN -- SECCIÓN BANNER*/
+
+/*==============================================*/
+
+    /*SECCIÓN OBJETIVO ESPECIFICO*/
+
+    .obejtivoEspecifico_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+       
+    }
+
+    .obejtivoEspecifico_titulo{
+        width: 100%;
+    }
+    
+    .obejtivoEspecifico_titulo h4{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 35px;
+    }
+
+    .obejtivoEspecifico_lista{
+        width: 80%;
+    }
+}
+
+    /*FIN -- SECCIÓN OBJETIVO ESPECIFICO*/
+
+/*==============================================*/
+
+
+
+/*Breakpoint: Celular 768px*/
+@media screen and (max-width: 768px){
+    
+    .objetivoGeneral_container{
+        margin: 60px 60px;
+    }
+    
+    .obejtivoEspecifico_container{
+        margin: 60px 60px;
+    }
+    
+    .obejtivoEspecifico_lista{
+        width: 100%;
+    }
+    
+    
+}
+    
+
+/*Breakpoint: Celular 500px*/
+
+@media screen and (max-width: 500px){
+
+    .banner_box {
+        position: relative;
+        background: url(../Img/galeria/BANNER_PROJECTMobileSM.webp) no-repeat center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    
+    }
+}
