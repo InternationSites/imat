@@ -152,12 +152,18 @@
 
 @media (max-width: 992px){
 
+    
+
     .banner_container{
         padding-top: 80px;
     }
 
-    .banner_titulo{
+    .banner_title{
+        width: auto;
+    }
 
+    .banner_titulo{
+        margin-top: 100px;
         margin-bottom: 25px;
     }
 

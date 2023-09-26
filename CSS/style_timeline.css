@@ -175,6 +175,11 @@
     transform: scale(0.97);
   }
   @media(max-width: 790px){
+
+    .banner_title{
+      width: auto;
+    }
+
     .wrapper .center-line{
       left: 40px;
     }
