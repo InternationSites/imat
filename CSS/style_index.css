@@ -368,7 +368,7 @@
 
 
 .contacto_botones{
-    width: 20%;
+    width: 45%;
 
 }
 
@@ -579,6 +579,7 @@
         
     }
 
+
     .contacto_botones{
         width: auto;
         display: flex;
@@ -673,6 +674,21 @@
     }
 
     /*FIN PARTNERS*/
+    
+    /*CONTACTO*/
+
+    .contacto_titulo h1{
+        font-size: 35px;
+        
+    }
+
+    .contacto_botones{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+
+    }
+    /*FIN CONTACTO*/
 }
 
 /*Breakpoint: Celular 500px*/
