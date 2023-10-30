@@ -416,6 +416,17 @@
     transition: all .5s ease;
 }
 
+.contacto_botones ul li:hover.linkedin{
+    box-shadow: 0 0 15px #0e76a8;
+    transition: all .5s ease;
+}
+
+.contacto_botones ul li:hover .fa-linkedin{
+    color: #0e76a8;
+    text-shadow: 0 0 15px #0e76a8;
+    transition: all .5s ease;
+}
+
 
 /*FIN contacto*/
 
